@@ -54,8 +54,8 @@
         </nav>
       </div>
     </header>
-    <main class="container">
-      <div id="gallery" class="carousel">
+    <main>
+      <div id="gallery" class="carousel container">
         <div>
           <img class="gallery-img" src="img/photo03.png" alt="content" />
         </div>
@@ -66,7 +66,7 @@
           <img class="gallery-img" src="img/photo01.png" alt="content" />
         </div>
       </div>
-      <div class="gallery-info container-mobile">
+      <div class="container gallery-info">
         <p>
           Suspendisse potenti. Curabitur in leo non odio hendrerit semper. Morbi
           id tempor eros. Donec viverra tempor congue. Suspendisse quis felis
@@ -77,46 +77,46 @@
           feugiat massa.
         </p>
       </div>
-      <div class="container-mobile">
-      <div id="history" class="name-block">
-        <h2 class="name-block__header">History</h2>
+      <div class="container">
+        <div id="history" class="name-block">
+          <h2 class="name-block__header">History</h2>
+        </div>
       </div>
-      </div>
-      <div class="history container-mobile">
+      <div class="container history">
         <div class="history__card">
           <p class="card__text">
-            <span class="years">1890</span> Fusce rhoncus at sapien at
-            sollicitudin. Quisque semper sollicitudin libero eget placerat.
-            Aliquam quis laoreet tellus. In id congue lacus. Nulla vestibulum
-            turpis et nisi consequat, non sagittis purus interdum. Nunc eu dolor
-            urna. Quisque fermentum risus quam, at consectetur leo tincidunt id.
-            Nulla facilisi.
+            <span class="counter" data-target="1890"></span> Fusce rhoncus at
+            sapien at sollicitudin. Quisque semper sollicitudin libero eget
+            placerat. Aliquam quis laoreet tellus. In id congue lacus. Nulla
+            vestibulum turpis et nisi consequat, non sagittis purus interdum.
+            Nunc eu dolor urna. Quisque fermentum risus quam, at consectetur leo
+            tincidunt id. Nulla facilisi.
           </p>
         </div>
         <div class="history__card">
           <p class="card__text">
-            <span class="years">1920</span> Aliquam erat volutpat. Curabitur et
-            accumsan odio, eget scelerisque risus. Suspendisse ultrices mattis
-            accumsan. In hac habitasse platea dictumst. In non nisl turpis. Sed
-            sit amet purus odio. Donec aliquam leo a tortor tincidunt, vel
-            molestie neque commodo. Ut pellentesque ut ex pulvinar aliquam.
-            Morbi porttitor, felis quis convallis tincidunt, augue felis euismod
-            lectus, a placerat purus justo eget magna. Mauris neque nisi,
-            pharetra ac posuere nec, vehicula non lorem.
+            <span class="counter" data-target="1920"></span> Aliquam erat
+            volutpat. Curabitur et accumsan odio, eget scelerisque risus.
+            Suspendisse ultrices mattis accumsan. In hac habitasse platea
+            dictumst. In non nisl turpis. Sed sit amet purus odio. Donec aliquam
+            leo a tortor tincidunt, vel molestie neque commodo. Ut pellentesque
+            ut ex pulvinar aliquam. Morbi porttitor, felis quis convallis
+            tincidunt, augue felis euismod lectus, a placerat purus justo eget
+            magna. Mauris neque nisi, pharetra ac posuere nec, vehicula non
+            lorem.
           </p>
         </div>
       </div>
-      <div class="container-mobile">
-      <div id="contact-us" class="name-block contact-us">
-        <h2 class="name-block__header">Contact us</h2>
+      <div class="container">
+        <div id="contact-us" class="name-block contact-us">
+          <h2 class="name-block__header">Contact us</h2>
+        </div>
       </div>
-      </div>
-      <form class="form container-mobile">
-        <input
+      <form class="container form">
+        <textarea
           class="contact-us-form"
-          type="text"
           placeholder="type your message here"
-        />
+        ></textarea>
         <button type="submit" name="submit" class="button-send">Send</button>
       </form>
     </main>
